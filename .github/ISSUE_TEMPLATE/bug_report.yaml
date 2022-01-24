@@ -49,3 +49,12 @@ body:
       - report
   validations:
     required: true
+- type: textarea
+  id: achievegoal
+  attributes:
+    label: ...
+    description: 
+    placeholder: 
+    value: "Please explain the end goal"
+  validations:
+    required: true
