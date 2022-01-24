@@ -119,4 +119,4 @@ body:
     value: "### Thank you for filling out this form."
 - type: markdown
   attributes:
-    value: "### Someone will be in contact as soon as possible. /n Contact Underwriting Data Engineering email group if you have heard nothing for a few days "
+    value: "### Someone will be in contact as soon as possible.    Contact Underwriting Data Engineering email group if you have heard nothing for a few days "
