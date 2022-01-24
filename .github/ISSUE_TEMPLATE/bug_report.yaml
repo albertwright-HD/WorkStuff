@@ -31,7 +31,7 @@ body:
 - type: textarea
   id: iwantto
   attributes:
-    label: iwantto
+    label: ""
     description: 
     placeholder: 
     value: "Please say what you want"
