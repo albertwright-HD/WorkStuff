@@ -5,7 +5,7 @@ title: "[User Story]: "
 body:
 - type: markdown
   attributes:
-    value: "## Thanks for completing our form!"
+    value: "### Statement of Intent"
 - type: dropdown
   id: download1
   attributes:
@@ -114,3 +114,6 @@ body:
     value: "you need to explain here what success looks like. Anything NOT listed might not be caught in the test coverage, so make sure you list everything you can think of. "
   validations:
     required: true
+- type: markdown
+  attributes:
+    value: "### Thank you for filling out this form."
