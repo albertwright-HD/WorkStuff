@@ -58,6 +58,15 @@ body:
     value: "Please explain the end goal"
   validations:
     required: true
+- type: textarea
+  id: plainenglish
+  attributes:
+    label: In Plain English
+    description: 
+    placeholder: 
+    value: "Add a simple description of the change, inclusing any key technical information such as CASE statements, logic, tables to reference "
+  validations:
+    required: true
 - type: dropdown
   id: scope1
   attributes:
