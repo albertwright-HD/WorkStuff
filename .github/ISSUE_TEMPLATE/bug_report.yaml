@@ -37,3 +37,15 @@ body:
     value: "Please say what you want"
   validations:
     required: true
+- type: dropdown
+  id: download3
+  attributes:
+    label: so that I can
+    options:
+      - view
+      - analyse
+      - score
+      - select
+      - report
+  validations:
+    required: true
