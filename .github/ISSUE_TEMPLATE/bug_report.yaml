@@ -19,3 +19,13 @@ body:
       - Property/Person DB Extract
   validations:
     required: true
+- type: dropdown
+  id: download
+  attributes:
+    label: I want to
+    options:
+      - add
+      - remove
+      - change
+  validations:
+    required: true
