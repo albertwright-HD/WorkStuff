@@ -5,7 +5,8 @@ title: "[User Story]: "
 body:
 - type: markdown
   attributes:
-    value:   | ##Statement of Intent
+    value:  | 
+    ##Statement of Intent
 - type: dropdown
   id: download1
   attributes:
