@@ -3,9 +3,6 @@ name: User Story
 description: Create a User Story
 title: "[Bug]: "
 labels: ["bug", "triage"]
-assignees:
-  - octocat
-
 body:
 - type: dropdown
   id: download
@@ -22,8 +19,6 @@ body:
       - Property/Person DB Extract
   validations:
     required: true
-
-body:
 - type: dropdown
   id: download
   attributes:
@@ -34,9 +29,6 @@ body:
       - change
   validations:
     required: true
-    
-    
-body:
 - type: markdown
   value: "## Welcome!"
     
