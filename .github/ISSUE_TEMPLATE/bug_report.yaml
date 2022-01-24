@@ -1,7 +1,4 @@
-name: User Story
-description: Create a User Story
-title: "[Bug]: "
-labels: ["bug", "triage"]
+
 body:
 - type: dropdown
   id: download1
