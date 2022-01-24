@@ -58,3 +58,38 @@ body:
     value: "Please explain the end goal"
   validations:
     required: true
+- type: dropdown
+  id: scope1
+  attributes:
+    label: Product
+    options:
+      - All Motor
+      - Car
+      - Bike
+      - Van
+      - Home
+  validations:
+    required: true
+- type: dropdown
+  id: scope2
+  attributes:
+    label: Quotes/Policies/Claims
+    options:
+      - Quotes
+      - Policy
+      - Claim
+      - Market Data
+      - Enrichment
+  validations:
+    required: false
+- type: dropdown
+  id: scope3
+  attributes:
+    label: Work Stream
+    options:
+      - Data Table (eg MPT/MQT)
+      - Data String (eg QPDB/PropDB)
+      - Pipeline/Automation Request
+      - Analysis
+  validations:
+    required: false
