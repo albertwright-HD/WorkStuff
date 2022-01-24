@@ -1,11 +1,10 @@
-
 name: User Story
 description: Create a User Story
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
 - type: dropdown
-  id: download
+  id: download1
   attributes:
     label: As a
     options:
@@ -20,7 +19,7 @@ body:
   validations:
     required: true
 - type: dropdown
-  id: download
+  id: download2
   attributes:
     label: I want to
     options:
