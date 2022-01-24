@@ -28,8 +28,10 @@ body:
       - change
   validations:
     required: true
+
 - type: markdown
   value: "## Welcome!"
+
 - type: markdown
   attributes:
     value: |
