@@ -122,4 +122,4 @@ body:
     value: "### Someone will be in contact as soon as possible."
 - type: markdown
   attributes:
-    value: "Contact Underwriting Data Engineering email group if you have heard nothing for a few days "
+    value: "Contact Underwriting Data Engineering email group if you have not had a reply for a few days "
