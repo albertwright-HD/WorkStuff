@@ -36,7 +36,7 @@ body:
     required: true
     
     
-    body:
+body:
 - type: markdown
   value: "## Welcome!"
     
