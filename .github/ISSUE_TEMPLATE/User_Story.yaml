@@ -1,9 +1,9 @@
 name: User Story Build
 description: Create a User Story
 title: "[User Story]: "
-
-body:
 ##State of Intent
+body:
+
 - type: dropdown
   id: download1
   attributes:
