@@ -93,3 +93,12 @@ body:
       - Analysis
   validations:
     required: false
+- type: textarea
+  id: acceptance
+  attributes:
+    label: Acceptance Criteria
+    description: 
+    placeholder: 
+    value: "you need to explain here what success looks like. Anything NOT listed might not be caught in the test coverage, so make sure you list everything you can think of. "
+  validations:
+    required: true
