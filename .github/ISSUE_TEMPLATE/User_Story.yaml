@@ -5,7 +5,7 @@ title: "[User Story]: "
 body:
 - type: markdown
   attributes:
-    value: "### Statement of Intent"
+    value: "## Statement of Intent"
 - type: dropdown
   id: download1
   attributes:
@@ -116,7 +116,4 @@ body:
     required: true
 - type: markdown
   attributes:
-    value: "
-    
-    
-    ### Thank you for filling out this form."
+    value: "### Thank you for filling out this form."
