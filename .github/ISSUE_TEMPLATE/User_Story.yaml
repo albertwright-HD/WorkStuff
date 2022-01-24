@@ -114,6 +114,27 @@ body:
     value: "you need to explain here what success looks like. Anything NOT listed might not be caught in the test coverage, so make sure you list everything you can think of. "
   validations:
     required: true
+- type: dropdown
+  id: businessimpact
+  attributes:
+    label: Business Impact
+    options:
+      - Drop everything, must do now
+      - Urgent
+      - Required
+      - Required non-urgent
+      - Nice to have
+  validations:
+    required: false
+- type: textarea
+  id: people
+  attributes:
+    label: Please @<github tag> whom we need to commuincate/ask to UAT 
+    description: 
+    placeholder: 
+    value: "eg. @albertwright-HD "
+  validations:
+    required: true
 - type: markdown
   attributes:
     value: "### Thank you for filling out this form."
