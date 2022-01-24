@@ -125,7 +125,7 @@ body:
       - Required non-urgent
       - Nice to have
   validations:
-    required: false
+    required: true
 - type: textarea
   id: people
   attributes:
