@@ -1,7 +1,6 @@
 name: User Story Build
 description: Create a User Story
 title: "[User Story]: "
-labels:
 
 body:
 - type: dropdown
