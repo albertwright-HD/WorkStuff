@@ -3,7 +3,8 @@ description: Create a User Story
 title: "[User Story]: "
 
 body:
- ##State of Intent
+- type: markdown
+  value: "## Statement of Intent"
 - type: dropdown
   id: download1
   attributes:
