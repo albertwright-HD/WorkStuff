@@ -15,10 +15,17 @@ body:
       - Risk Pricing Analyst
       - Product Development Analyst
       - Data Scientist
+      - Actuary
+      - Account Analyst/Manager
+      - APP Analyst/Trader/Manager
+      - Claims Analyst
+      - Insight Analyst
+      - Master Quote Table Extract
       - Master Policy Table Extract
       - Master Claims Data Extract
       - Green List Extract
-      - Property/Person DB Extract
+      - QPDB/Property/Person DB String
+      - Market Data Set
   validations:
     required: true
 - type: dropdown
@@ -67,7 +74,7 @@ body:
     label: In Plain English
     description: 
     placeholder: 
-    value: "Add a simple description of the change, inclusing any key technical information such as CASE statements, logic, tables to reference "
+    value: "Add a simple description of the change, including any key technical information such as CASE statements, logic, tables to reference "
   validations:
     required: true
 - type: dropdown
@@ -80,6 +87,7 @@ body:
       - Bike
       - Van
       - Home
+      - All and Any data
   validations:
     required: true
 - type: dropdown
@@ -99,9 +107,11 @@ body:
   attributes:
     label: Work Stream
     options:
-      - Data Table (eg MPT/MQT)
+      - Data Extract (eg MPT/MQT)
       - Data String (eg QPDB/PropDB)
       - Pipeline/Automation Request
+      - Market data
+      - Application Fraud
       - Analysis
   validations:
     required: false
@@ -135,6 +145,15 @@ body:
     value: "eg. @albertwright-HD "
   validations:
     required: true
+- type: textarea
+  id: othertickets
+  attributes:
+    label: Are there any other tickets/dependants/dependencies directly affected by this? 
+    description: 
+    placeholder: 
+    value: "Please paste link of other Tickets, or state objects "
+  validations:
+    required: false
 - type: markdown
   attributes:
     value: "### Thank you for filling out this form."
