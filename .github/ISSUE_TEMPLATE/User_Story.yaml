@@ -26,7 +26,6 @@ body:
       - Green List Extract
       - QPDB/Property/Person DB String
       - Market Data Set
-      - ham
   validations:
     required: true
 - type: dropdown
